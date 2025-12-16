@@ -28,7 +28,7 @@ export async function connectToESP32(
   }
 
   const device = await navigator.bluetooth.requestDevice({
-    filters: [{ name: "SoilSense-ESP32" }],
+    filters: [{ name: 'ESP32-SoilSensor' }],
     optionalServices: [ESP32_SERVICE_UUID],
   });
 
