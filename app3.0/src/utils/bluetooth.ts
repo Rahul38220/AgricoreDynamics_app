@@ -62,10 +62,10 @@ export async function connectToESP32(
       onData({
         pH: 0,           // placeholder (add later)
         moisture,        // REAL value
-        tds: 0,
-        nitrogen: 0,
-        phosphorus: 0,
-        potassium: 0,
+        tds,
+        nitrogen: tds,
+        phosphorus: tds,
+        potassium: tds,
       });
     }
   );
