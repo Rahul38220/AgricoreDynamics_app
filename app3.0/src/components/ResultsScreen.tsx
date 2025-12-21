@@ -140,13 +140,13 @@ export function ResultsScreen({
               </div>
             </div>
 
-            {/* TDS */}
+            {/* EC */}
             <div
               className="p-4 rounded-xl"
               style={{ backgroundColor: APP_CONFIG.colors.background }}
             >
               <div className="text-sm mb-1" style={{ color: APP_CONFIG.colors.textLight }}>
-                TDS
+                EC
               </div>
               <div className="text-2xl mb-1" style={{ color: APP_CONFIG.colors.text }}>
                 {sensorData.tds}
